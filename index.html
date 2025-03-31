@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimatePage</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1 id="typing-text"></h1>
+            <p class="subtitle">Experience stunning animations</p>
+            <button class="cta-button">Explore More</button>
+        </div>
+        <div class="floating-elements">
+            <div class="circle"></div>
+            <div class="square"></div>
+            <div class="triangle"></div>
+        </div>
+    </header>
+
+    <section class="interactive-section">
+        <div class="card" id="flip-card">
+            <div class="card-front">
+                <h2>Hover to Flip</h2>
+            </div>
+            <div class="card-back">
+                <p>3D Card Effect</p>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <div class="form-group">
+                <input type="text" id="name" required>
+                <label for="name">Your Name</label>
+            </div>
+            <button class="ripple-button">Submit</button>
+        </div>
+    </section>
+
+    <section class="scroll-section">
+        <div class="scroll-item fade-in">
+            <h2>Scroll Triggered Animations</h2>
+            <svg class="svg-animation" viewBox="0 0 100 10">
+                <path d="M0,5 L100,5" stroke="currentColor" stroke-width="0.5" fill="none"></path>
+            </svg>
+        </div>
+        <div class="scroll-item stagger">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </section>
+
+    <script src="./animations.js"></script>
+</body>
+</html>
